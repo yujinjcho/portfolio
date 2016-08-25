@@ -23,6 +23,7 @@ var MainContainer = React.createClass({
         <h5 style={styles.header}>
           <a href='https://github.com/yujinjcho' target="_blank">Github</a> | 
           <a href='https://www.linkedin.com/in/yujinjcho' target="_blank"> Linkedin</a> | 
+          <a href='https://ycnotes.com/' target="_blank"> Personal</a> | 
           <a href="mailto:yujinjcho@gmail.com" target="_top"> Email</a>
         </h5> <br />
 
