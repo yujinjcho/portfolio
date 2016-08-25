@@ -54,8 +54,9 @@
 	var React = __webpack_require__(2);
 	var ReactDOM = __webpack_require__(35);
 	var routes = __webpack_require__(173);
+	var Main = __webpack_require__(231);
 
-	ReactDOM.render(routes, document.getElementById('app'));
+	ReactDOM.render(React.createElement(Main, null), document.getElementById('app'));
 
 /***/ },
 /* 2 */
@@ -21423,7 +21424,7 @@
 
 	var routes = React.createElement(
 	  Router,
-	  { history: hashHistory },
+	  null,
 	  React.createElement(
 	    Route,
 	    { path: '/', component: Main },
@@ -26432,6 +26433,8 @@
 
 	var React = __webpack_require__(2);
 
+	var Home = __webpack_require__(232);
+
 	var Main = React.createClass({
 	  displayName: 'Main',
 
@@ -26439,7 +26442,7 @@
 	    return React.createElement(
 	      'div',
 	      { className: 'main-container' },
-	      this.props.children
+	      React.createElement(Home, null)
 	    );
 	  }
 	});
@@ -26562,7 +26565,8 @@
 	    height: '150px',
 	    //border: '1px solid rgba(200,200,200,1)',
 	    float: 'left',
-	    background: 'rgba(0,0,0,.6)'
+	    background: 'rgba(0,0,0,.6)',
+	    cursor: 'pointer'
 	  },
 	  scrollPic: {
 	    backgroundImage: 'url(http://i.imgur.com/4m9dQSe.png)',

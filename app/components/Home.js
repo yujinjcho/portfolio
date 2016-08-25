@@ -16,7 +16,7 @@ var data = [
     project: '2',
     title: 'Its Pong', 
     description: 'Connect local ping pong players', 
-    technologies: 'Flask, PostgreSQL, OAuth, Geolocation',
+    technologies: 'Flask, PostgreSQL, Bootstrap, OAuth, Geolocation',
     github: 'https://github.com/yujinjcho/itspong',
     imageUrl: 'http://i.imgur.com/czQbhmx.png',
     projectUrl: 'http://www.itspong.com/'
