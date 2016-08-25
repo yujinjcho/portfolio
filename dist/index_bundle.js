@@ -26631,6 +26631,12 @@
 	        ' |',
 	        React.createElement(
 	          'a',
+	          { href: 'https://ycnotes.com/', target: '_blank' },
+	          ' Personal'
+	        ),
+	        ' |',
+	        React.createElement(
+	          'a',
 	          { href: 'mailto:yujinjcho@gmail.com', target: '_top' },
 	          ' Email'
 	        )
