@@ -28,7 +28,7 @@ var data = [
     technologies: 'HTML, CSS, JavaScript',
     github: 'https://github.com/yujinjcho/timer',
     imageUrl: 'http://i.imgur.com/aEVSfKq.png',
-    projectUrl: 'http://timer-sessions.bitballoon.com/'
+    projectUrl: 'https://time-sessions.herokuapp.com/'
   },
   {
     project: '4',
@@ -37,7 +37,7 @@ var data = [
     technologies: 'JavaScript',
     github: 'https://github.com/yujinjcho/tictactoe',
     imageUrl: 'http://i.imgur.com/IeYJBHl.png',
-    projectUrl: 'http://tictactoe-verysmart.bitballoon.com/'
+    projectUrl: 'http://alphatictactoe.herokuapp.com/'
   }
 ];
 
