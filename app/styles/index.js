@@ -23,7 +23,8 @@ var styles = {
     bottom: '0px',
     width: '100%',
     height: '120px',
-    background: 'rgba(0,0,0,.6)',
+    background: 'rgba(0,41,60,.7)',
+    //background: '#DE7A22',
     color: 'white',
     paddingLeft: '10px'
   },
@@ -56,9 +57,9 @@ var styles = {
   scrollThumb: {
     width: '190px',
     height: '150px',
-    //border: '1px solid rgba(200,200,200,1)',
     float: 'left',
-    background: 'rgba(0,0,0,.6)',
+    background: 'rgba(0,41,60,.7)',
+    //1E43C
     cursor: 'pointer'
   },
   scrollPic: {
